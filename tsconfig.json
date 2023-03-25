@@ -1,10 +1,10 @@
 {
-  "extends": "@tsconfig/node18/tsconfig.json",
-  "compilerOptions": {
-    "outDir": "./dist",
-    "module": "esnext",
-    "baseUrl": "."
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "esnext",
+        "baseUrl": "."
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
 }
