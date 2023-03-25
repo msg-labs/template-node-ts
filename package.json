@@ -6,6 +6,7 @@
     "type": "module",
     "scripts": {
         "test": "jest .",
+        "build": "tsc",
         "dev": "tsc --watch",
         "start": "node -r dotenv/config dist/index",
         "watch-output": "SHELL='/bin/ash' chokidar dist/index.js -c 'npm start'"
